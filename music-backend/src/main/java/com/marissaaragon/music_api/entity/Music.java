@@ -22,5 +22,4 @@ public class Music {
     private String album;
     private String genre;
     private int releaseYear;
-    private String format;
 }

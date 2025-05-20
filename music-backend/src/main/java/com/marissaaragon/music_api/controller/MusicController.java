@@ -52,7 +52,6 @@ public class MusicController {
             existingMusic.setAlbum(updatedMusic.getAlbum());
             existingMusic.setGenre(updatedMusic.getGenre());
             existingMusic.setReleaseYear(updatedMusic.getReleaseYear());
-            existingMusic.setFormat(updatedMusic.getFormat());
 
             Music savedMusic = musicRepository.save(existingMusic);
             return new ResponseEntity<>(savedMusic, HttpStatus.OK);
